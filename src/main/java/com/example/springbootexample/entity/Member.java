@@ -15,6 +15,7 @@ public class Member {
     @Column
     private String content;
 
+
     public Member(Long id, String title, String content) {
         this.id = id;
         this.title = title;
